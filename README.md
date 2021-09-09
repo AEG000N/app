@@ -10,4 +10,4 @@
 # Front-End con Angular 12.x
 Pagina iniziale che permette di inserire due numeri interi e inviarli al Server tramite una POST.
 # Back-End con Spring Boot
-Riceve il l'input da client, somma i due interi e risponde al client con l'intero somma.
+Riceve l'input dal client, somma i due interi e invia una risposta con la somma.
