@@ -1,0 +1,20 @@
+
+<div class="FormContainer">
+
+    <span>Inserisci i numeri:</span>
+
+    <form (ngSubmit) = "send()" [formGroup]="form" action="">
+        <input class="form-controll" type="number" (input)="check('num1')" placeholder="numero" formControlName="num1">
+        <input class="form-controll" type="number" (input)="check('num2')" placeholder="numero" formControlName="num2">
+        <input type="submit" value="Invia">
+    </form>
+
+    <span *ngIf="data!=null">Somma &#8594; {{data.sum}} </span>
+
+    <!--*ngIf="(data | json) != '{}'"-->
+
+</div>
+
+
+
+
