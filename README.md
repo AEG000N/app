@@ -16,6 +16,6 @@ Pagina iniziale che permette di inserire due numeri interi e inviarli al Server 
 # Back-End con Spring Boot
 Riceve l'input dal client, somma i due interi e invia la risposta con la somma.
 In particolare abbiamo:
-* controller (RestController): classe che implementa il metodo sum() la quale soddisfa la richiesta ricevuta dal client,
+* controller (RestController): classe che implementa il metodo sum() il quale soddisfa la richiesta ricevuta dal client,
 * Value: classe che definisce il modello dei dati ricevuti,
 * Sum: classe che definisce il modello dei dati di risposta al client.
